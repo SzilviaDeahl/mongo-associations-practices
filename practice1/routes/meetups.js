@@ -4,3 +4,7 @@ var db = require('monk')('localhost/mongo-associations-lesson');
 var meetupsCollection = db.get('meetups')
 var locationsCollection = db.get('locations')
 var usersCollection = db.get('users')
+
+
+
+module.exports = router;
